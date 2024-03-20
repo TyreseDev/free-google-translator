@@ -1,5 +1,5 @@
 const axios = require("axios");
-const querystring = require("querystring");
+const querystring = require("node:querystring");
 
 module.exports = async (source, sourceLang, targetLang) => {
   try {
@@ -10,6 +10,7 @@ module.exports = async (source, sourceLang, targetLang) => {
     const translations = response.data[0];
 
     let translatedText = "";
+    // biome-ignore lint/complexity/noForEach: <explanation>
     translations.forEach((translation) => {
       translatedText += translation[0];
     });

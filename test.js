@@ -1,4 +1,4 @@
-const translateText = require("./free_google_translator_api");
+const translateText = require("./translator_api");
 
 // Usage example
 const sourceText = "Hello, world!";

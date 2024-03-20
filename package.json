@@ -1,0 +1,26 @@
+{
+  "name": "free-google-translator",
+  "version": "1.0.0",
+  "description": "Free Google Translator",
+  "main": "translator_api.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TyreseDev/free-google-translator.git"
+  },
+  "keywords": [
+    "GoogleTranslator",
+    "Translate"
+  ],
+  "author": "Tyrese (tyresejin3915@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TyreseDev/free-google-translator/issues"
+  },
+  "homepage": "https://github.com/TyreseDev/free-google-translator#readme",
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
