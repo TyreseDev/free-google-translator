@@ -16,7 +16,7 @@ Free Google Translator is a lightweight Node.js package for easily translating t
 To use Free Google Translator in your project, you need to have Node.js installed. Once ready, install the package using npm:
 
 ```bash
-npm install free-google-translator
+npm install free-google-translator-api
 ```
 
 ### Usage
@@ -24,7 +24,7 @@ npm install free-google-translator
 To translate text, first require the package in your Node.js script:
 
 ```javascript
-const translateText = require('free-google-translator');
+const translateText = require('free-google-translator-api');
 ```
 
 Then, call the `translateText` function with the text you want to translate, the source language code (use `'auto'` for automatic detection), and the target language code:
@@ -71,11 +71,11 @@ Feel free to fork the repository and submit pull requests. Whether it's fixing a
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/TyreseDev/free-google-translator/issues) on GitHub.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/TyreseDev/free-google-translator-api/issues) on GitHub.
 
 ## License
 
-This project is licensed under the ISC License. See the [LICENSE](https://github.com/TyreseDev/free-google-translator/blob/main/LICENSE) file for details.
+This project is licensed under the ISC License. See the [LICENSE](https://github.com/TyreseDev/free-google-translator-api/blob/main/LICENSE) file for details.
 
 ## Author
 
@@ -83,4 +83,4 @@ Tyrese Jin (<tyresejin3915@gmail.com>)
 
 ---
 
-For more details and updates, visit the [project homepage](https://github.com/TyreseDev/free-google-translator#readme).
+For more details and updates, visit the [project homepage](https://github.com/TyreseDev/free-google-translator-api#readme).
